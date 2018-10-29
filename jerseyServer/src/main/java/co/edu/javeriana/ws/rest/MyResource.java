@@ -1,5 +1,6 @@
 package co.edu.javeriana.ws.rest;
 
+import co.edu.javeriana.ws.entidades.Fibonnacci;
 import co.edu.javeriana.ws.entidades.Piloto;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,26 +26,7 @@ public class MyResource {
      *
      * @return String that will be returned as a text/plain response.
      */
-    
-    List<Piloto> lista=new ArrayList<>();
 
-    public MyResource() {
-        Piloto p=new Piloto();
-        Piloto p2=new Piloto();
-        p.setId(1);
-        p2.setId(2);
-        p.setNombre("Montoya");
-        p2.setNombre("Alonso");
-        p2.setPodios(2);
-        p.setPodios(2);
-        p.setCampeonatos(1);
-        p2.setCampeonatos(1);
-        p.setFechanacimiento("01/01/1988");
-        p2.setFechanacimiento("01/01/1988");
-        lista.add(p);
-        lista.add(p2);
-    }
-    
     
     @GET
     @Produces(MediaType.TEXT_PLAIN)
@@ -53,56 +35,47 @@ public class MyResource {
     }
     
     @GET
-    @Path("piloto")
+    @Path("/fibonacci/{num}")
     @Produces("application/json")
-    public List<Piloto> getPiloto() {
-        return lista;
+    public List<Fibonnacci> getFibonacci(@PathParam("num") int num) {
+    	List<Fibonnacci> list=new ArrayList<>();
+    	for (int i = 0; i < num; i++) {
+           Fibonnacci fb=new Fibonnacci();
+        	fb.setNum(fibonacci(i));
+        	list.add(fb);
+        }
+     
+        return list;
     }
- 
     @GET
-    @Path("pilotox")
+    @Path("/fibonacci/xml/{num}")
     @Produces("application/xml")
-    public List<Piloto> getPilotox() {
-        return lista;
-    }
- 
-    @GET
-    @Path("piloto/{id}")
-    @Produces("application/json")
-    public Piloto getPiloto(@PathParam("id") int id) {
-        return lista.get(id);
+    public List<Fibonnacci> getFibonaccixml(@PathParam("num") int num) {
+    	List<Fibonnacci> list=new ArrayList<>();
+    	for (int i = 0; i < num; i++) {
+           Fibonnacci fb=new Fibonnacci();
+        	fb.setNum(fibonacci(i));
+        	list.add(fb);
+        }
+     
+        return list;
     }
     
-    @GET
-    @Path("pilotox/{id}")
-    @Produces("application/xml")
-    public Piloto getPilotoX(@PathParam("id") int id) {
-        return lista.get(id);
+    int fibonacci(int n)
+    {
+        if (n>1){
+           return fibonacci(n-1) + fibonacci(n-2);  //función recursiva
+        }
+        else if (n==1) {  // caso base
+            return 1;
+        }
+        else if (n==0){  // caso base
+            return 0;
+        }
+        else{ //error
+            System.out.println("Debes ingresar un tamaño mayor o igual a 1");
+            return -1; 
+        }
     }
     
-    @POST
-    @Path("piloto/create")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String createPiloto( Piloto piloto) {
-        lista.add(piloto);
-        return "recibido "+piloto.getNombre();
-    }
-   
-     @DELETE
-    @Path("piloto/delete/{id}")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String deletePiloto( @PathParam("id") int id) {
-        lista.remove(id);
-      
-        return "eliminado id, lista n "+lista.size();
-    }
-   
-     @POST
-    @Path("piloto/edit/{id}")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String editPiloto( @PathParam("id") int id,Piloto piloto) {
-        lista.set(id, piloto);
-        return "modificado ";
-    }
-   
 }

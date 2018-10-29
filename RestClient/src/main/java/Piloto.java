@@ -5,7 +5,6 @@
 // Generated on: 2018.09.24 at 02:03:26 AM COT 
 //
 
-package co.edu.javeriana.ws.entidades;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

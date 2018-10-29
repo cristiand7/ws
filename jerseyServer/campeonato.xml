@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<campeonato>
+    <piloto>
+        <biografia>
+				Few drivers have entered Formula 1 racing with as big a bang as Lewis Hamilton, whose sensational maiden season in 2007 - in which he lost out on the world championship by a single point - remains one of the most remarkable rookie campaigns in history.
+			</biografia>
+        <campeonatos>4</campeonatos>
+        <fecha_nacimiento>1985-01-07T09:00:00</fecha_nacimiento>
+        <idPiloto>1</idPiloto>
+        <lugar_nacimiento>Stevenage, England</lugar_nacimiento>
+        <multiplicador>0.1</multiplicador>
+        <nombre>Lewis Hamilton</nombre>
+        <numero>44</numero>
+        <podios>129</podios>
+    </piloto>
+    <piloto>
+        <biografia>
+				"He’s a man of few words,” Jenson Button once said of Kimi Raikkonen, “but he's all about racing." Never the most loquacious out of the car, the mercurially-talented 2007 world champion has always preferred to let his driving do the talking, be that in a rally car, on a snowmobile, or, most successfully, in Formula 1 machinery. 
+			</biografia>
+        <campeonatos>1</campeonatos>
+        <fecha_nacimiento>1979-10-17T09:00:00</fecha_nacimiento>
+        <idPiloto>3</idPiloto>
+        <lugar_nacimiento>Espoo, Finland</lugar_nacimiento>
+        <multiplicador>0.1</multiplicador>
+        <nombre>Kimi Räikkönen</nombre>
+        <numero>7</numero>
+        <podios>100</podios>
+    </piloto>
+    <piloto>
+        <biografia>
+				“Valtteri is quite simply one of the most talented young racing drivers I have come across and we expect great things from him in the future.” These were the words of Sir Frank Williams as he announced that the young man from Nastola in southern Finland would make his F1 debut as a Williams race driver for the 2013 season. Williams’ expectations were high, but Bottas did not disappoint.
+			</biografia>
+        <campeonatos>0</campeonatos>
+        <fecha_nacimiento>1979-10-17T09:00:00</fecha_nacimiento>
+        <idPiloto>4</idPiloto>
+        <lugar_nacimiento>Nastola, Finland</lugar_nacimiento>
+        <multiplicador>0.1</multiplicador>
+        <nombre>Valtteri Bottas</nombre>
+        <numero>77</numero>
+        <podios>28</podios>
+    </piloto>
+    <piloto>
+        <biografia>
+				“Valtteri is quite simply one of the most talented young racing drivers I have come across and we expect great things from him in the future.” These were the words of Sir Frank Williams as he announced that the young man from Nastola in southern Finland would make his F1 debut as a Williams race driver for the 2013 season. Williams’ expectations were high, but Bottas did not disappoint.
+			</biografia>
+        <campeonatos>0</campeonatos>
+        <fecha_nacimiento>1997-09-30T09:00:00</fecha_nacimiento>
+        <idPiloto>5</idPiloto>
+        <lugar_nacimiento>Hasselt, Belgium</lugar_nacimiento>
+        <multiplicador>0.1</multiplicador>
+        <nombre>Max Verstappen</nombre>
+        <numero>33</numero>
+        <podios>17</podios>
+    </piloto>
+    <piloto>
+        <biografia>...</biografia>
+        <campeonatos>2</campeonatos>
+        <foto>...</foto>
+        <idPiloto>5</idPiloto>
+        <multiplicador>0.0</multiplicador>
+        <nombre>michael</nombre>
+        <numero>2</numero>
+        <podios>1</podios>
+    </piloto>
+    <piloto>
+        <biografia>...</biografia>
+        <campeonatos>2</campeonatos>
+        <foto>...</foto>
+        <idPiloto>5</idPiloto>
+        <multiplicador>0.0</multiplicador>
+        <nombre>michael</nombre>
+        <numero>2</numero>
+        <podios>1</podios>
+    </piloto>
+    <piloto>
+        <biografia>...</biografia>
+        <campeonatos>2</campeonatos>
+        <foto>...</foto>
+        <idPiloto>5</idPiloto>
+        <multiplicador>0.0</multiplicador>
+        <nombre>michael</nombre>
+        <numero>2</numero>
+        <podios>1</podios>
+    </piloto>
+    <piloto>
+        <biografia>...</biografia>
+        <campeonatos>2</campeonatos>
+        <foto>...</foto>
+        <idPiloto>5</idPiloto>
+        <multiplicador>0.0</multiplicador>
+        <nombre>michael</nombre>
+        <numero>2</numero>
+        <podios>1</podios>
+    </piloto>
+    <piloto>
+        <biografia>...</biografia>
+        <campeonatos>2</campeonatos>
+        <foto>...</foto>
+        <idPiloto>5</idPiloto>
+        <multiplicador>0.0</multiplicador>
+        <nombre>michael</nombre>
+        <numero>2</numero>
+        <podios>1</podios>
+    </piloto>
+    <piloto>
+        <biografia>...</biografia>
+        <campeonatos>2</campeonatos>
+        <foto>...</foto>
+        <idPiloto>5</idPiloto>
+        <multiplicador>0.0</multiplicador>
+        <nombre>michael</nombre>
+        <numero>2</numero>
+        <podios>1</podios>
+    </piloto>
+    <piloto>
+        <biografia>
+				Few drivers have entered Formula 1 racing with as big a bang as Lewis Hamilton, whose sensational maiden season in 2007 - in which he lost out on the world championship by a single point - remains one of the most remarkable rookie campaigns in history.
+			</biografia>
+        <campeonatos>4</campeonatos>
+        <fecha_nacimiento>1985-01-07T09:00:00</fecha_nacimiento>
+        <idPiloto>2</idPiloto>
+        <lugar_nacimiento>Stevenage, England</lugar_nacimiento>
+        <multiplicador>0.1</multiplicador>
+        <nombre>Lewis Hamilton</nombre>
+        <numero>44</numero>
+        <podios>129</podios>
+    </piloto>
+</campeonato>
